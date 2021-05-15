@@ -18,6 +18,7 @@
   "homepage": "https://github.com/akshay-saxena-it/chatBox#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^5.12.9",
     "mysql": "^2.18.1",
     "socket.io": "^4.1.1"
   }
