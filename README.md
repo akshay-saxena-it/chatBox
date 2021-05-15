@@ -19,7 +19,7 @@ CREATE TABLE `chat`.`chat_users` (
   PRIMARY KEY (`user_id`),
   UNIQUE INDEX `chat_userscol_UNIQUE` (`user_name` ASC) VISIBLE)
 
-#Insert users data
+# Insert users data
 INSERT INTO `chat`.`chat_users` (`user_id`, `user_name`, `user_full_name`, `user_image`) VALUES ('3', 'user3', 'user3', 'user.jpg')
 INSERT INTO `chat`.`chat_users` (`user_id`, `user_name`, `user_full_name`, `user_image`, `user_password`) VALUES ('1', 'user1', 'user1', 'user.jpg', '123')
 INSERT INTO `chat`.`chat_users` (`user_id`, `user_name`, `user_full_name`, `user_image`, `user_password`) VALUES ('2', 'user2', 'user2', 'user.jpg', '123')
