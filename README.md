@@ -6,10 +6,10 @@ Real time chat application using nodeJs and socket.io
 # Create database
 CREATE DATABASE chat
 
-#For using database
+# For using database
 use chat
-
-#Create a table
+ 
+# Create a table
 CREATE TABLE `chat`.`chat_users` (
   `user_id` INT NOT NULL,
   `user_name` VARCHAR(45) NULL,
