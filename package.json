@@ -1,0 +1,24 @@
+{
+  "name": "chatbox",
+  "version": "1.0.0",
+  "description": "real chat application using nodejs and socke.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshay-saxena-it/chatBox.git"
+  },
+  "author": "akshay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshay-saxena-it/chatBox/issues"
+  },
+  "homepage": "https://github.com/akshay-saxena-it/chatBox#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.1.1"
+  }
+}
